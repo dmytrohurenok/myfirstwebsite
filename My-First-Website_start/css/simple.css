@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif;
+}
+  
+ul.menu{
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5em;
+    background-color: black;
+
+}
+
+ul.menu li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+
+}
+
+ul.menu li a{
+    color:white;
+    text-decoration: none;
+}
+
+ul.menu li.selected{
+    color:yellow;
+}
+
+ul.menu li a:hover{
+    color: #99DDFF;
+    text-decoration: underline;
+}
+
+article {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+  
+
+   
+    }
+
+    aside {
+        color: #2F5670;
+    list-style-type: square;
+    font-size: 1em;
+        box-shadow: 10px 
+10px 5px gray;
+
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #FFFFC0
+    
+
+    }
+    
+    table.crossword,
+.crossword td
+{
+border: 1px solid black;
+border-collapse: collapse;
+}
+.crossword td
+{
+width: 3em;
+height: 3em;
+vertical-align: top;
+background-color: white;
+}
+.crossword .black
+{
+background-color: black;
+}
+
